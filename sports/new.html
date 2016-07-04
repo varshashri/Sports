@@ -1,0 +1,130 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+</head>
+<body background="images/Capback.jpg">
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+                         <img src="images/captureicon.jpg" width="950" height="130" align="center">
+				</div>
+		</div>
+		<div id="menu-wrapper">
+			<ul id="menu">
+				<li class="current_page_item"><a href="#"><span>Homepage</span></a></li>
+				<li><span>choose your sport</span>
+					<ul>
+						<li class="first"> <a href="cricket.html">CRICKET</a> </li>
+						<li> <a href="soccer.html">SOCCER</a></li>
+                                                <li> <a href="hockey.html">HOCKEY</a></li>
+                                                <li class="last"><a href="tennis.html">TENNIS</a> </li>
+					</ul>
+				</li>
+				<li><a href="https://www.google.co.in/search?q=sports+images&biw=1280&bih=577&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjat6vF9_nJAhVJwBQKHVOfDmUQ_AUIBigB"><span>Gallery</span></a></li>
+                                <li><span>History</span></a>
+                                    <ul>
+                                                <li class="first"> <a href="https://en.wikipedia.org/wiki/History_of_cricket">cricket</a> </li>
+						<li> <a href="https://en.wikipedia.org/wiki/History_of_soccer">soccer</a></li>
+                                                <li> <a href="https://en.wikipedia.org/wiki/History_of_hockey">hockey</a></li>
+						<li class="last"> <a href="https://en.wikipedia.org/wiki/History_of_tennis">tennis</li>
+                                </li>
+                                    </ul>
+				<li><span>players</span>
+					<ul>
+						<li class="first"> <a href="https://en.wikipedia.org/wiki/Mahendra_Singh_Dhoni">Cricket-dhoni</a></li>
+						<li> <a href="https://en.wikipedia.org/wiki/Lionel_Messi">soccer-Lionel Messi</a> </li>
+                                                <li> <a href="https://en.wikipedia.org/wiki/Sardara_Singh">hockey-Sardara Singh</a></li>                                         
+						<li class="last"> <a href="https://en.wikipedia.org/wiki/Sania_Mirza">tennis-Sania Mirza</a> </li>
+					</ul>
+				</li>
+				<li><a href="contact.html"><span>Contact</span></a></li>
+			</ul>
+			<script type="text/javascript">
+			$('#menu').dropotron();
+		</script> 
+               </div>
+                <!-- end #menu -->
+		<div id="banner">
+			<div id="slider"> <a href="#" class="button previous-button">&lt;</a> <a href="#" class="button next-button">&gt;</a>
+				<div class="viewer">
+					<div class="reel">
+                                                <div class="slide">
+							<a class="link" href="#">1</a><img src="images/rock2.jpg" width="900" height="350" alt="" /></div>
+						<div class="slide">
+							<a class="link" href="#"></a><img src="images/main2.jpeg" width="900" height="350" alt="" /></div>
+						<div class="slide">
+							<a class="link" href="#"></a><img src="images/main4.jpeg" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+							<a class="link" href="#"></a><img src="images/sp.jpg" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+							<a class="link" href="#"></a><img src="images/rock.jpg" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+	                                                <a class="link" href="#"></a><img src="images/rock1.png" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+	                                                <a class="link" href="#"></a><img src="images/rock3.jpg" width="900" height="350" alt="" /></div>					
+                                                <div class="slide">
+	                                                <a class="link" href="#"></a><img src="images/rock7.jpg" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+	                                                <a class="link" href="#"></a><img src="images/rock5.jpg" width="900" height="350" alt="" /></div>
+                                                <div class="slide">
+	                                                <a class="link" href="#"></a><img src="images/rock6.jpg" width="900" height="350" alt="" /></div>
+</div>
+				</div>
+				<div class="indicator">
+					<ul>
+						<li class="active">1</li>
+						<li>2</li>
+                                                <li>3</li>
+                                                <li>4</li>
+                                                <li>5</li>
+                                                <li>6</li>
+                                                <li>7</li>
+                                                <li>8</li>
+                                                <li>9</li>
+                                                <li>10</li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow',
+					navPreviousSelector: '.previous-button',
+					navNextSelector: '.next-button',
+					indicatorSelector: '.indicator ul li',
+					slideLinkSelector: '.link'
+				});
+			</script> 
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="content">
+			<div class="contentbg">
+				<div class="post">
+					<h2 class="title">About</h2>
+										<div class="entry"><h3>Sport (UK) orSports (US) is a form of usually competitive physical activity or games which, through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing entertainment to participants, and in some cases, spectators. Usually the contest or game is between two sides, each attempting to exceed the other. Some sports allow a tie game; others provide tie-breaking methods, to ensure one winner and one loser. A number of such two-sided contests may be arranged in a tournament producing a champion. Many sports leagues make an annual champion by arranging games in a regular sports season, followed in some cases by playoffs. Hundreds of sports exist, from those between single contestants, through to those with hundreds of simultaneous participants, either in teams or competing as individuals. In certain sports such as racing, many contestants may compete, each against all with one winner.
+Sport is generally recognized as activities which are based in physical athleticism or physical dexterity, with the largest major competitions such as the Olympic Games admitting only sports meeting this definition, and other organisations such as the Council of Europe using definitions precluding activities without a physical element from classification as sports. However, a number of competitive, but non-physical, activities claim recognition as mind sports. The International Olympic Committee (through ARISF) recognizes both chess and bridge as bona fide sports, and SportAccord, the international sports federation association, recognizes five non-physical sports, although limits the number of mind games which can be admitted as sports.
+Sports are usually governed by a set of rules or customs, which serve to ensure fair competition, and allow consistent adjudication of the winner. Winning can be determined by physical events such as scoring goals or crossing a line first. It can also be determined by judges who are scoring elements of the sporting performance, including objective or subjective measures such as technical performance or artistic impression.
+Records of performance are often kept, and for popular sports, this information may be widely announced or reported in sport news. Sport is also a major source of entertainment for non-participants, with spectator sport drawing large crowds to sport venues, and reaching wider audiences through broadcasting. Sports betting isin some cases severely regulated, and in some cases is central to the sport.
+According to A.T. Kearney, a consultancy, the global sporting industry is worth up to $620 billion as of 2013. The world's most accessible and practised sport is running, while association football is its most popular spectator sport.
+					</h3></div>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+		<!-- end #content -->
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page --> 
+</div>
+</body>
+</html>
